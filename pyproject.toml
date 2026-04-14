@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oldonesay"
+version = "0.1.0"
+description = "The Old Ones speak — Lovecraftian terminal oracle"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["Pillow>=10,<12"]
+
+[project.urls]
+Homepage = "https://github.com/your-user/oldonesay"
+
+[project.scripts]
+oldonesay = "oldones_say.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+"oldones_say.gods" = ["*.png"]
