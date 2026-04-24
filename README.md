@@ -11,6 +11,12 @@
 - Random, fixed-god, custom-text, and piped-input modes
 - One-command loop mode with `./loopones.sh`
 
+## Gallery
+
+Current terminal renders generated from the live CLI output:
+
+![oldonesay gallery](docs/screenshots/gallery.png)
+
 ## Install
 
 Install from a git clone of the repository, then install the package in editable mode.
